@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D031F5AC1A75CD9C00C26F84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D031F5AB1A75CD9C00C26F84 /* AppDelegate.swift */; };
+		D031F5AF1A75CD9C00C26F84 /* COSBOX_1_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D031F5AD1A75CD9C00C26F84 /* COSBOX_1_0.xcdatamodeld */; };
+		D031F5B11A75CD9C00C26F84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D031F5B01A75CD9C00C26F84 /* ViewController.swift */; };
+		D031F5B41A75CD9C00C26F84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D031F5B21A75CD9C00C26F84 /* Main.storyboard */; };
+		D031F5B61A75CD9C00C26F84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D031F5B51A75CD9C00C26F84 /* Images.xcassets */; };
+		D031F5B91A75CD9C00C26F84 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D031F5B71A75CD9C00C26F84 /* LaunchScreen.xib */; };
+		D031F5C51A75CD9C00C26F84 /* COSBOX_1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D031F5C41A75CD9C00C26F84 /* COSBOX_1_0Tests.swift */; };
+		D0926B371A894D7000E46E8B /* globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0926B361A894D7000E46E8B /* globals.swift */; };
+		D0B823C81A76765E004E48F8 /* customTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B823C71A76765E004E48F8 /* customTableViewCell.swift */; };
+		D0C3313C1A7E94930019A5FC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C3313B1A7E94930019A5FC /* DetailViewController.swift */; };
+		D0C3313F1A7EB20D0019A5FC /* coreData Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C3313E1A7EB20D0019A5FC /* coreData Helpers.swift */; };
+		D0C331411A80341B0019A5FC /* EditItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C331401A80341B0019A5FC /* EditItemViewController.swift */; };
+		D0DA27FE1A7B3D2100A485F2 /* FoundationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DA27FD1A7B3D2100A485F2 /* FoundationEntity.swift */; };
+		D0DA28001A7B3D2100A485F2 /* NailsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DA27FF1A7B3D2100A485F2 /* NailsEntity.swift */; };
+		D0DA28021A7B3D2100A485F2 /* EyesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DA28011A7B3D2100A485F2 /* EyesEntity.swift */; };
+		D0DA28041A7B3D2100A485F2 /* LipsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DA28031A7B3D2100A485F2 /* LipsEntity.swift */; };
+		D0DA28061A7B3FD300A485F2 /* BlushEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DA28051A7B3FD300A485F2 /* BlushEntity.swift */; };
+		D0DA280A1A7B416400A485F2 /* mainViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DA28091A7B416400A485F2 /* mainViewExtensions.swift */; };
+		D0DA280E1A7B54BB00A485F2 /* OthersEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DA280D1A7B54BB00A485F2 /* OthersEntity.swift */; };
+		D0FEA5191A788615001F20EE /* AddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FEA5181A788615001F20EE /* AddingViewController.swift */; };
+		D0FEA51B1A79BF7C001F20EE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FEA51A1A79BF7C001F20EE /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D031F5BF1A75CD9C00C26F84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D031F59E1A75CD9C00C26F84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D031F5A51A75CD9C00C26F84;
+			remoteInfo = COSBOX_1.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D031F5A61A75CD9C00C26F84 /* COSBOX_1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COSBOX_1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D031F5AA1A75CD9C00C26F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D031F5AB1A75CD9C00C26F84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D031F5AE1A75CD9C00C26F84 /* COSBOX_1_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = COSBOX_1_0.xcdatamodel; sourceTree = "<group>"; };
+		D031F5B01A75CD9C00C26F84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D031F5B31A75CD9C00C26F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D031F5B51A75CD9C00C26F84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D031F5B81A75CD9C00C26F84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D031F5BE1A75CD9C00C26F84 /* COSBOX_1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COSBOX_1.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D031F5C31A75CD9C00C26F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D031F5C41A75CD9C00C26F84 /* COSBOX_1_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COSBOX_1_0Tests.swift; sourceTree = "<group>"; };
+		D0926B361A894D7000E46E8B /* globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = globals.swift; sourceTree = "<group>"; };
+		D0B823C71A76765E004E48F8 /* customTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customTableViewCell.swift; sourceTree = "<group>"; };
+		D0C3313B1A7E94930019A5FC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D0C3313E1A7EB20D0019A5FC /* coreData Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "coreData Helpers.swift"; sourceTree = "<group>"; };
+		D0C331401A80341B0019A5FC /* EditItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditItemViewController.swift; sourceTree = "<group>"; };
+		D0DA27FD1A7B3D2100A485F2 /* FoundationEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationEntity.swift; sourceTree = "<group>"; };
+		D0DA27FF1A7B3D2100A485F2 /* NailsEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NailsEntity.swift; sourceTree = "<group>"; };
+		D0DA28011A7B3D2100A485F2 /* EyesEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyesEntity.swift; sourceTree = "<group>"; };
+		D0DA28031A7B3D2100A485F2 /* LipsEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LipsEntity.swift; sourceTree = "<group>"; };
+		D0DA28051A7B3FD300A485F2 /* BlushEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlushEntity.swift; sourceTree = "<group>"; };
+		D0DA28091A7B416400A485F2 /* mainViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewExtensions.swift; sourceTree = "<group>"; };
+		D0DA280D1A7B54BB00A485F2 /* OthersEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OthersEntity.swift; sourceTree = "<group>"; };
+		D0FEA5181A788615001F20EE /* AddingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddingViewController.swift; sourceTree = "<group>"; };
+		D0FEA51A1A79BF7C001F20EE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D031F5A31A75CD9C00C26F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D031F5BB1A75CD9C00C26F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D031F59D1A75CD9C00C26F84 = {
+			isa = PBXGroup;
+			children = (
+				D031F5A81A75CD9C00C26F84 /* COSBOX_1.0 */,
+				D031F5C11A75CD9C00C26F84 /* COSBOX_1.0Tests */,
+				D031F5A71A75CD9C00C26F84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D031F5A71A75CD9C00C26F84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D031F5A61A75CD9C00C26F84 /* COSBOX_1.0.app */,
+				D031F5BE1A75CD9C00C26F84 /* COSBOX_1.0Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D031F5A81A75CD9C00C26F84 /* COSBOX_1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				D0C3313D1A7EA5280019A5FC /* View Controllers */,
+				D0926B361A894D7000E46E8B /* globals.swift */,
+				D0C331421A8034CF0019A5FC /* Extensions */,
+				D0C3313E1A7EB20D0019A5FC /* coreData Helpers.swift */,
+				D031F5B21A75CD9C00C26F84 /* Main.storyboard */,
+				D0B823C71A76765E004E48F8 /* customTableViewCell.swift */,
+				D031F5AD1A75CD9C00C26F84 /* COSBOX_1_0.xcdatamodeld */,
+				D0DA280D1A7B54BB00A485F2 /* OthersEntity.swift */,
+				D0DA28031A7B3D2100A485F2 /* LipsEntity.swift */,
+				D0DA28051A7B3FD300A485F2 /* BlushEntity.swift */,
+				D0DA28011A7B3D2100A485F2 /* EyesEntity.swift */,
+				D0DA27FF1A7B3D2100A485F2 /* NailsEntity.swift */,
+				D0DA27FD1A7B3D2100A485F2 /* FoundationEntity.swift */,
+				D031F5A91A75CD9C00C26F84 /* Supporting Files */,
+			);
+			path = COSBOX_1.0;
+			sourceTree = "<group>";
+		};
+		D031F5A91A75CD9C00C26F84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D031F5AB1A75CD9C00C26F84 /* AppDelegate.swift */,
+				D031F5B51A75CD9C00C26F84 /* Images.xcassets */,
+				D031F5B71A75CD9C00C26F84 /* LaunchScreen.xib */,
+				D031F5AA1A75CD9C00C26F84 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D031F5C11A75CD9C00C26F84 /* COSBOX_1.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D031F5C41A75CD9C00C26F84 /* COSBOX_1_0Tests.swift */,
+				D031F5C21A75CD9C00C26F84 /* Supporting Files */,
+			);
+			path = COSBOX_1.0Tests;
+			sourceTree = "<group>";
+		};
+		D031F5C21A75CD9C00C26F84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D031F5C31A75CD9C00C26F84 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0C3313D1A7EA5280019A5FC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D031F5B01A75CD9C00C26F84 /* ViewController.swift */,
+				D0FEA5181A788615001F20EE /* AddingViewController.swift */,
+				D0C3313B1A7E94930019A5FC /* DetailViewController.swift */,
+				D0C331401A80341B0019A5FC /* EditItemViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D0C331421A8034CF0019A5FC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D0DA28091A7B416400A485F2 /* mainViewExtensions.swift */,
+				D0FEA51A1A79BF7C001F20EE /* Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D031F5A51A75CD9C00C26F84 /* COSBOX_1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D031F5C81A75CD9C00C26F84 /* Build configuration list for PBXNativeTarget "COSBOX_1.0" */;
+			buildPhases = (
+				D031F5A21A75CD9C00C26F84 /* Sources */,
+				D031F5A31A75CD9C00C26F84 /* Frameworks */,
+				D031F5A41A75CD9C00C26F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = COSBOX_1.0;
+			productName = COSBOX_1.0;
+			productReference = D031F5A61A75CD9C00C26F84 /* COSBOX_1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D031F5BD1A75CD9C00C26F84 /* COSBOX_1.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D031F5CB1A75CD9C00C26F84 /* Build configuration list for PBXNativeTarget "COSBOX_1.0Tests" */;
+			buildPhases = (
+				D031F5BA1A75CD9C00C26F84 /* Sources */,
+				D031F5BB1A75CD9C00C26F84 /* Frameworks */,
+				D031F5BC1A75CD9C00C26F84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D031F5C01A75CD9C00C26F84 /* PBXTargetDependency */,
+			);
+			name = COSBOX_1.0Tests;
+			productName = COSBOX_1.0Tests;
+			productReference = D031F5BE1A75CD9C00C26F84 /* COSBOX_1.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D031F59E1A75CD9C00C26F84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Justin Bastawrose";
+				TargetAttributes = {
+					D031F5A51A75CD9C00C26F84 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 68MQ8DVUGT;
+					};
+					D031F5BD1A75CD9C00C26F84 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 68MQ8DVUGT;
+						TestTargetID = D031F5A51A75CD9C00C26F84;
+					};
+				};
+			};
+			buildConfigurationList = D031F5A11A75CD9C00C26F84 /* Build configuration list for PBXProject "COSBOX_1.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D031F59D1A75CD9C00C26F84;
+			productRefGroup = D031F5A71A75CD9C00C26F84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D031F5A51A75CD9C00C26F84 /* COSBOX_1.0 */,
+				D031F5BD1A75CD9C00C26F84 /* COSBOX_1.0Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D031F5A41A75CD9C00C26F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D031F5B41A75CD9C00C26F84 /* Main.storyboard in Resources */,
+				D031F5B91A75CD9C00C26F84 /* LaunchScreen.xib in Resources */,
+				D031F5B61A75CD9C00C26F84 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D031F5BC1A75CD9C00C26F84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D031F5A21A75CD9C00C26F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C331411A80341B0019A5FC /* EditItemViewController.swift in Sources */,
+				D0DA28001A7B3D2100A485F2 /* NailsEntity.swift in Sources */,
+				D0DA28061A7B3FD300A485F2 /* BlushEntity.swift in Sources */,
+				D0DA27FE1A7B3D2100A485F2 /* FoundationEntity.swift in Sources */,
+				D0DA280A1A7B416400A485F2 /* mainViewExtensions.swift in Sources */,
+				D0FEA5191A788615001F20EE /* AddingViewController.swift in Sources */,
+				D031F5B11A75CD9C00C26F84 /* ViewController.swift in Sources */,
+				D0FEA51B1A79BF7C001F20EE /* Extensions.swift in Sources */,
+				D0C3313F1A7EB20D0019A5FC /* coreData Helpers.swift in Sources */,
+				D0DA28021A7B3D2100A485F2 /* EyesEntity.swift in Sources */,
+				D0926B371A894D7000E46E8B /* globals.swift in Sources */,
+				D0DA28041A7B3D2100A485F2 /* LipsEntity.swift in Sources */,
+				D031F5AF1A75CD9C00C26F84 /* COSBOX_1_0.xcdatamodeld in Sources */,
+				D0B823C81A76765E004E48F8 /* customTableViewCell.swift in Sources */,
+				D0C3313C1A7E94930019A5FC /* DetailViewController.swift in Sources */,
+				D031F5AC1A75CD9C00C26F84 /* AppDelegate.swift in Sources */,
+				D0DA280E1A7B54BB00A485F2 /* OthersEntity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D031F5BA1A75CD9C00C26F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D031F5C51A75CD9C00C26F84 /* COSBOX_1_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D031F5C01A75CD9C00C26F84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D031F5A51A75CD9C00C26F84 /* COSBOX_1.0 */;
+			targetProxy = D031F5BF1A75CD9C00C26F84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D031F5B21A75CD9C00C26F84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D031F5B31A75CD9C00C26F84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D031F5B71A75CD9C00C26F84 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D031F5B81A75CD9C00C26F84 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D031F5C61A75CD9C00C26F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D031F5C71A75CD9C00C26F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D031F5C91A75CD9C00C26F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Justin Bastawrose (68MQ8DVUGT)";
+				INFOPLIST_FILE = COSBOX_1.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4ea256c1-b521-459c-95b6-b5ed0df86480";
+			};
+			name = Debug;
+		};
+		D031F5CA1A75CD9C00C26F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Justin Bastawrose (68MQ8DVUGT)";
+				INFOPLIST_FILE = COSBOX_1.0/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4ea256c1-b521-459c-95b6-b5ed0df86480";
+			};
+			name = Release;
+		};
+		D031F5CC1A75CD9C00C26F84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = COSBOX_1.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COSBOX_1.0.app/COSBOX_1.0";
+			};
+			name = Debug;
+		};
+		D031F5CD1A75CD9C00C26F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = COSBOX_1.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COSBOX_1.0.app/COSBOX_1.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D031F5A11A75CD9C00C26F84 /* Build configuration list for PBXProject "COSBOX_1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D031F5C61A75CD9C00C26F84 /* Debug */,
+				D031F5C71A75CD9C00C26F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D031F5C81A75CD9C00C26F84 /* Build configuration list for PBXNativeTarget "COSBOX_1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D031F5C91A75CD9C00C26F84 /* Debug */,
+				D031F5CA1A75CD9C00C26F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D031F5CB1A75CD9C00C26F84 /* Build configuration list for PBXNativeTarget "COSBOX_1.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D031F5CC1A75CD9C00C26F84 /* Debug */,
+				D031F5CD1A75CD9C00C26F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D031F5AD1A75CD9C00C26F84 /* COSBOX_1_0.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D031F5AE1A75CD9C00C26F84 /* COSBOX_1_0.xcdatamodel */,
+			);
+			currentVersion = D031F5AE1A75CD9C00C26F84 /* COSBOX_1_0.xcdatamodel */;
+			path = COSBOX_1_0.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D031F59E1A75CD9C00C26F84 /* Project object */;
+}
