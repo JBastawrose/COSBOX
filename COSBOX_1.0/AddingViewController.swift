@@ -153,6 +153,8 @@ class AddingViewController: UIViewController, UITextViewDelegate, UIPickerViewDa
                 )
             }
         }
+        save()
+        
         // go back to previous screen once data is saved...
         self.navigationController?.popToRootViewControllerAnimated(true)
     }

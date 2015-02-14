@@ -42,6 +42,13 @@ makeUpItems = fetchResults
 }
 */
 
+func save() {
+    var error : NSError?
+    if(managedObjectContext!.save(&error)) {
+        println(error?.localizedDescription)
+    }
+}
+
 func fetchFoundations() {
     let fetchRequest = NSFetchRequest(entityName: "FoundationEntity")
     

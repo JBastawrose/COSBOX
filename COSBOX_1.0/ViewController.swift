@@ -23,7 +23,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.navigationItem.rightBarButtonItem = addButton
         
         self.refreshControl = UIRefreshControl()
-        self.refreshControl.attributedTitle = NSAttributedString(string: "Pull to refersh")
+        self.refreshControl.attributedTitle = NSAttributedString(string: "Pull to refresh")
         self.refreshControl.addTarget(self, action: "refresh:", forControlEvents: UIControlEvents.ValueChanged)
         self.tableViewObj.addSubview(refreshControl)
     }
@@ -199,7 +199,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 nailsItems.removeAll(keepCapacity: false)
                 fetchNails()
                 managedObjectContext?.deleteObject(nailsItems[indexPath.row])
-            }else {
+            } else {
                 otherItems.removeAll(keepCapacity: false)
                 fetchOthers()
                 managedObjectContext?.deleteObject(otherItems[indexPath.row])
@@ -210,6 +210,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             
             // Refresh the table view to indicate that it's deleted
             tableView.reloadData()
+            
+            save()
         }
     }
 }

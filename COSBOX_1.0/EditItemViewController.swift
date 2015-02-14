@@ -252,6 +252,8 @@ class EditItemViewController: UIViewController, UIPickerViewDataSource, UIPicker
                 )
             }
         }
+        save()
+        
         // go back to previous screen once data is saved...
         self.navigationController?.popToRootViewControllerAnimated(true)
     }
