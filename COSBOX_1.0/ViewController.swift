@@ -107,6 +107,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
         let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: cellIdentifier)
+        cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
         
         if (indexPath.section == 0) {
             foundationItems.removeAll(keepCapacity: false)
