@@ -14,6 +14,8 @@
 		D031F5B61A75CD9C00C26F84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D031F5B51A75CD9C00C26F84 /* Images.xcassets */; };
 		D031F5B91A75CD9C00C26F84 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D031F5B71A75CD9C00C26F84 /* LaunchScreen.xib */; };
 		D031F5C51A75CD9C00C26F84 /* COSBOX_1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D031F5C41A75CD9C00C26F84 /* COSBOX_1_0Tests.swift */; };
+		D070FC931A9A17DA003A492F /* libRedLaserSDK_arm64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D070FC901A9A17DA003A492F /* libRedLaserSDK_arm64.a */; };
+		D070FC941A9A17DA003A492F /* libRedLaserSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D070FC911A9A17DA003A492F /* libRedLaserSDK.a */; };
 		D0926B371A894D7000E46E8B /* globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0926B361A894D7000E46E8B /* globals.swift */; };
 		D0B823C81A76765E004E48F8 /* customTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B823C71A76765E004E48F8 /* customTableViewCell.swift */; };
 		D0C3313C1A7E94930019A5FC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C3313B1A7E94930019A5FC /* DetailViewController.swift */; };
@@ -52,6 +54,10 @@
 		D031F5BE1A75CD9C00C26F84 /* COSBOX_1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COSBOX_1.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D031F5C31A75CD9C00C26F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D031F5C41A75CD9C00C26F84 /* COSBOX_1_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COSBOX_1_0Tests.swift; sourceTree = "<group>"; };
+		D070FC901A9A17DA003A492F /* libRedLaserSDK_arm64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRedLaserSDK_arm64.a; sourceTree = "<group>"; };
+		D070FC911A9A17DA003A492F /* libRedLaserSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRedLaserSDK.a; sourceTree = "<group>"; };
+		D070FC921A9A17DA003A492F /* RedLaserSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedLaserSDK.h; sourceTree = "<group>"; };
+		D070FC991A9A2974003A492F /* Bridger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridger.h; sourceTree = "<group>"; };
 		D0926B361A894D7000E46E8B /* globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = globals.swift; sourceTree = "<group>"; };
 		D0B823C71A76765E004E48F8 /* customTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customTableViewCell.swift; sourceTree = "<group>"; };
 		D0C3313B1A7E94930019A5FC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D070FC941A9A17DA003A492F /* libRedLaserSDK.a in Frameworks */,
+				D070FC931A9A17DA003A492F /* libRedLaserSDK_arm64.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,19 +115,13 @@
 		D031F5A81A75CD9C00C26F84 /* COSBOX_1.0 */ = {
 			isa = PBXGroup;
 			children = (
+				D070FC8F1A9A178B003A492F /* RedLaser */,
 				D0C3313D1A7EA5280019A5FC /* View Controllers */,
 				D0926B361A894D7000E46E8B /* globals.swift */,
 				D0C331421A8034CF0019A5FC /* Extensions */,
-				D0C3313E1A7EB20D0019A5FC /* coreData Helpers.swift */,
+				D070FC9A1A9A2F3C003A492F /* CoreData */,
 				D031F5B21A75CD9C00C26F84 /* Main.storyboard */,
 				D0B823C71A76765E004E48F8 /* customTableViewCell.swift */,
-				D031F5AD1A75CD9C00C26F84 /* COSBOX_1_0.xcdatamodeld */,
-				D0DA280D1A7B54BB00A485F2 /* OthersEntity.swift */,
-				D0DA28031A7B3D2100A485F2 /* LipsEntity.swift */,
-				D0DA28051A7B3FD300A485F2 /* BlushEntity.swift */,
-				D0DA28011A7B3D2100A485F2 /* EyesEntity.swift */,
-				D0DA27FF1A7B3D2100A485F2 /* NailsEntity.swift */,
-				D0DA27FD1A7B3D2100A485F2 /* FoundationEntity.swift */,
 				D031F5A91A75CD9C00C26F84 /* Supporting Files */,
 			);
 			path = COSBOX_1.0;
@@ -128,6 +130,7 @@
 		D031F5A91A75CD9C00C26F84 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D070FC991A9A2974003A492F /* Bridger.h */,
 				D031F5AB1A75CD9C00C26F84 /* AppDelegate.swift */,
 				D031F5B51A75CD9C00C26F84 /* Images.xcassets */,
 				D031F5B71A75CD9C00C26F84 /* LaunchScreen.xib */,
@@ -151,6 +154,31 @@
 				D031F5C31A75CD9C00C26F84 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D070FC8F1A9A178B003A492F /* RedLaser */ = {
+			isa = PBXGroup;
+			children = (
+				D070FC921A9A17DA003A492F /* RedLaserSDK.h */,
+				D070FC911A9A17DA003A492F /* libRedLaserSDK.a */,
+				D070FC901A9A17DA003A492F /* libRedLaserSDK_arm64.a */,
+			);
+			name = RedLaser;
+			sourceTree = "<group>";
+		};
+		D070FC9A1A9A2F3C003A492F /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D0C3313E1A7EB20D0019A5FC /* coreData Helpers.swift */,
+				D031F5AD1A75CD9C00C26F84 /* COSBOX_1_0.xcdatamodeld */,
+				D0DA280D1A7B54BB00A485F2 /* OthersEntity.swift */,
+				D0DA28031A7B3D2100A485F2 /* LipsEntity.swift */,
+				D0DA28051A7B3FD300A485F2 /* BlushEntity.swift */,
+				D0DA28011A7B3D2100A485F2 /* EyesEntity.swift */,
+				D0DA27FF1A7B3D2100A485F2 /* NailsEntity.swift */,
+				D0DA27FD1A7B3D2100A485F2 /* FoundationEntity.swift */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 		D0C3313D1A7EA5280019A5FC /* View Controllers */ = {
@@ -418,8 +446,15 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = COSBOX_1.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/COSBOX_1.0",
+				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/COSBOX_1.0/Bridger.h";
 			};
 			name = Debug;
 		};
@@ -431,8 +466,15 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = COSBOX_1.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/COSBOX_1.0",
+				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/COSBOX_1.0/Bridger.h";
 			};
 			name = Release;
 		};
