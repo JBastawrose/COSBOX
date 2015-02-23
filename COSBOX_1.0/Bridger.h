@@ -6,5 +6,8 @@
 //  Copyright (c) 2015 Justin Bastawrose. All rights reserved.
 //
 
-#import "RedLaserSDK.h"
-
+@import AVFoundation;
+@import CoreMedia;
+@import CoreVideo;
+@import QuartzCore;
+#import "Headers/ZBarSDK/ZBarSDK.h"
