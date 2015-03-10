@@ -15,7 +15,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "MY COSBOX"
+        self.title = "My COSBOX"
         
         tableViewObj.registerClass(UITableViewCell.self, forCellReuseIdentifier: cellIdentifier)
         

@@ -24,7 +24,6 @@ var categoryTapped = 0
 var indexPathWas: Int? = 0
 var indexPathTapped = NSIndexPath()
 
-//var sectionRange = NSRange(NSRan
 var sectionsUpdated = NSIndexSet(indexesInRange: NSRange(location: 0, length: 6))
 
 let categoryOptions: [NSNumber: String] = [0:"Foundation", 1:"Blush", 2:"Eyes", 3: "Lips", 4:"Nails", 5:"Others"]
@@ -32,4 +31,6 @@ let categoryOptions: [NSNumber: String] = [0:"Foundation", 1:"Blush", 2:"Eyes", 
 func allKeysForValue <K, V : Equatable> (categoryOptions: [K : V], val: V) -> [K] {
     return map(filter(categoryOptions) { $1 == val }) { $0.0 }
 }
+
+var scannedBarcode: String!
 

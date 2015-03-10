@@ -10,4 +10,3 @@
 @import CoreMedia;
 @import CoreVideo;
 @import QuartzCore;
-#import "Headers/ZBarSDK/ZBarSDK.h"

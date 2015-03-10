@@ -14,13 +14,9 @@
 		D031F5B61A75CD9C00C26F84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D031F5B51A75CD9C00C26F84 /* Images.xcassets */; };
 		D031F5B91A75CD9C00C26F84 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D031F5B71A75CD9C00C26F84 /* LaunchScreen.xib */; };
 		D031F5C51A75CD9C00C26F84 /* COSBOX_1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D031F5C41A75CD9C00C26F84 /* COSBOX_1_0Tests.swift */; };
+		D05ECE031AADE70900E1EB23 /* RSBarcodes.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D05ECDFF1AADE69900E1EB23 /* RSBarcodes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D081480A1AAB5DE3007CA55A /* UPCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08148091AAB5DE3007CA55A /* UPCViewController.swift */; };
 		D0926B371A894D7000E46E8B /* globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0926B361A894D7000E46E8B /* globals.swift */; };
-		D097777F1A9A95740030C29C /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D097777D1A9A94B40030C29C /* libiconv.dylib */; };
-		D097779E1A9A95B00030C29C /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D09777981A9A95B00030C29C /* libzbar.a */; };
-		D097779F1A9A95B00030C29C /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = D097779A1A9A95B00030C29C /* zbar-back.png */; };
-		D09777A01A9A95B00030C29C /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = D097779B1A9A95B00030C29C /* zbar-help.html */; };
-		D09777A11A9A95B00030C29C /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = D097779C1A9A95B00030C29C /* zbar-helpicons.png */; };
-		D09777A21A9A95B00030C29C /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = D097779D1A9A95B00030C29C /* zbar-samples.png */; };
 		D0B823C81A76765E004E48F8 /* customTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B823C71A76765E004E48F8 /* customTableViewCell.swift */; };
 		D0C3313C1A7E94930019A5FC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C3313B1A7E94930019A5FC /* DetailViewController.swift */; };
 		D0C3313F1A7EB20D0019A5FC /* coreData Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C3313E1A7EB20D0019A5FC /* coreData Helpers.swift */; };
@@ -44,7 +40,34 @@
 			remoteGlobalIDString = D031F5A51A75CD9C00C26F84;
 			remoteInfo = COSBOX_1.0;
 		};
+		D05ECDFE1AADE69900E1EB23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05ECDFA1AADE69900E1EB23 /* RSBarcodes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D08336371A202E81004EE128;
+			remoteInfo = RSBarcodes;
+		};
+		D05ECE001AADE6E700E1EB23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05ECDFA1AADE69900E1EB23 /* RSBarcodes.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D08336361A202E81004EE128;
+			remoteInfo = RSBarcodes;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D05ECE021AADE6EE00E1EB23 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D05ECE031AADE70900E1EB23 /* RSBarcodes.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D031F5A61A75CD9C00C26F84 /* COSBOX_1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COSBOX_1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,34 +81,10 @@
 		D031F5BE1A75CD9C00C26F84 /* COSBOX_1.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COSBOX_1.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D031F5C31A75CD9C00C26F84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D031F5C41A75CD9C00C26F84 /* COSBOX_1_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COSBOX_1_0Tests.swift; sourceTree = "<group>"; };
+		D05ECDFA1AADE69900E1EB23 /* RSBarcodes.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RSBarcodes.xcodeproj; path = RSBarcodes_Swift/RSBarcodes.xcodeproj; sourceTree = SOURCE_ROOT; };
 		D070FC991A9A2974003A492F /* Bridger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridger.h; sourceTree = "<group>"; };
+		D08148091AAB5DE3007CA55A /* UPCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPCViewController.swift; sourceTree = "<group>"; };
 		D0926B361A894D7000E46E8B /* globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = globals.swift; sourceTree = "<group>"; };
-		D097777D1A9A94B40030C29C /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
-		D09777841A9A95B00030C29C /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
-		D09777851A9A95B00030C29C /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
-		D09777861A9A95B00030C29C /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
-		D09777871A9A95B00030C29C /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
-		D09777881A9A95B00030C29C /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
-		D09777891A9A95B00030C29C /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
-		D097778A1A9A95B00030C29C /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
-		D097778B1A9A95B00030C29C /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
-		D097778C1A9A95B00030C29C /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
-		D097778D1A9A95B00030C29C /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
-		D097778E1A9A95B00030C29C /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
-		D097778F1A9A95B00030C29C /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
-		D09777901A9A95B00030C29C /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
-		D09777911A9A95B00030C29C /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
-		D09777921A9A95B00030C29C /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
-		D09777931A9A95B00030C29C /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
-		D09777941A9A95B00030C29C /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
-		D09777951A9A95B00030C29C /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
-		D09777961A9A95B00030C29C /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
-		D09777971A9A95B00030C29C /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
-		D09777981A9A95B00030C29C /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
-		D097779A1A9A95B00030C29C /* zbar-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-back.png"; sourceTree = "<group>"; };
-		D097779B1A9A95B00030C29C /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
-		D097779C1A9A95B00030C29C /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
-		D097779D1A9A95B00030C29C /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
 		D0B823C71A76765E004E48F8 /* customTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customTableViewCell.swift; sourceTree = "<group>"; };
 		D0C3313B1A7E94930019A5FC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D0C3313E1A7EB20D0019A5FC /* coreData Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "coreData Helpers.swift"; sourceTree = "<group>"; };
@@ -106,8 +105,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D097779E1A9A95B00030C29C /* libzbar.a in Frameworks */,
-				D097777F1A9A95740030C29C /* libiconv.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +139,6 @@
 		D031F5A81A75CD9C00C26F84 /* COSBOX_1.0 */ = {
 			isa = PBXGroup;
 			children = (
-				D09777801A9A95900030C29C /* ZBar */,
 				D0C3313D1A7EA5280019A5FC /* View Controllers */,
 				D0926B361A894D7000E46E8B /* globals.swift */,
 				D0C331421A8034CF0019A5FC /* Extensions */,
@@ -150,7 +146,6 @@
 				D031F5B21A75CD9C00C26F84 /* Main.storyboard */,
 				D0B823C71A76765E004E48F8 /* customTableViewCell.swift */,
 				D031F5A91A75CD9C00C26F84 /* Supporting Files */,
-				D070FCA21A9A4C28003A492F /* Libraries */,
 			);
 			path = COSBOX_1.0;
 			sourceTree = "<group>";
@@ -158,6 +153,7 @@
 		D031F5A91A75CD9C00C26F84 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D05ECDFA1AADE69900E1EB23 /* RSBarcodes.xcodeproj */,
 				D070FC991A9A2974003A492F /* Bridger.h */,
 				D031F5AB1A75CD9C00C26F84 /* AppDelegate.swift */,
 				D031F5B51A75CD9C00C26F84 /* Images.xcassets */,
@@ -184,6 +180,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D05ECDFB1AADE69900E1EB23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D05ECDFF1AADE69900E1EB23 /* RSBarcodes.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D070FC9A1A9A2F3C003A492F /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,79 +203,6 @@
 			name = CoreData;
 			sourceTree = "<group>";
 		};
-		D070FCA21A9A4C28003A492F /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				D097777D1A9A94B40030C29C /* libiconv.dylib */,
-			);
-			name = Libraries;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		D09777801A9A95900030C29C /* ZBar */ = {
-			isa = PBXGroup;
-			children = (
-				D09777811A9A95B00030C29C /* Headers */,
-				D09777981A9A95B00030C29C /* libzbar.a */,
-				D09777991A9A95B00030C29C /* Resources */,
-			);
-			name = ZBar;
-			sourceTree = "<group>";
-		};
-		D09777811A9A95B00030C29C /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				D09777821A9A95B00030C29C /* ZBarSDK */,
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
-		D09777821A9A95B00030C29C /* ZBarSDK */ = {
-			isa = PBXGroup;
-			children = (
-				D09777831A9A95B00030C29C /* zbar */,
-				D097778D1A9A95B00030C29C /* zbar.h */,
-				D097778E1A9A95B00030C29C /* ZBarCameraSimulator.h */,
-				D097778F1A9A95B00030C29C /* ZBarCaptureReader.h */,
-				D09777901A9A95B00030C29C /* ZBarHelpController.h */,
-				D09777911A9A95B00030C29C /* ZBarImage.h */,
-				D09777921A9A95B00030C29C /* ZBarImageScanner.h */,
-				D09777931A9A95B00030C29C /* ZBarReaderController.h */,
-				D09777941A9A95B00030C29C /* ZBarReaderView.h */,
-				D09777951A9A95B00030C29C /* ZBarReaderViewController.h */,
-				D09777961A9A95B00030C29C /* ZBarSDK.h */,
-				D09777971A9A95B00030C29C /* ZBarSymbol.h */,
-			);
-			path = ZBarSDK;
-			sourceTree = "<group>";
-		};
-		D09777831A9A95B00030C29C /* zbar */ = {
-			isa = PBXGroup;
-			children = (
-				D09777841A9A95B00030C29C /* Decoder.h */,
-				D09777851A9A95B00030C29C /* Exception.h */,
-				D09777861A9A95B00030C29C /* Image.h */,
-				D09777871A9A95B00030C29C /* ImageScanner.h */,
-				D09777881A9A95B00030C29C /* Processor.h */,
-				D09777891A9A95B00030C29C /* Scanner.h */,
-				D097778A1A9A95B00030C29C /* Symbol.h */,
-				D097778B1A9A95B00030C29C /* Video.h */,
-				D097778C1A9A95B00030C29C /* Window.h */,
-			);
-			path = zbar;
-			sourceTree = "<group>";
-		};
-		D09777991A9A95B00030C29C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D097779A1A9A95B00030C29C /* zbar-back.png */,
-				D097779B1A9A95B00030C29C /* zbar-help.html */,
-				D097779C1A9A95B00030C29C /* zbar-helpicons.png */,
-				D097779D1A9A95B00030C29C /* zbar-samples.png */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		D0C3313D1A7EA5280019A5FC /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,6 +210,7 @@
 				D0FEA5181A788615001F20EE /* AddingViewController.swift */,
 				D0C3313B1A7E94930019A5FC /* DetailViewController.swift */,
 				D0C331401A80341B0019A5FC /* EditItemViewController.swift */,
+				D08148091AAB5DE3007CA55A /* UPCViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -302,10 +234,12 @@
 				D031F5A21A75CD9C00C26F84 /* Sources */,
 				D031F5A31A75CD9C00C26F84 /* Frameworks */,
 				D031F5A41A75CD9C00C26F84 /* Resources */,
+				D05ECE021AADE6EE00E1EB23 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D05ECE011AADE6E700E1EB23 /* PBXTargetDependency */,
 			);
 			name = COSBOX_1.0;
 			productName = COSBOX_1.0;
@@ -361,6 +295,12 @@
 			mainGroup = D031F59D1A75CD9C00C26F84;
 			productRefGroup = D031F5A71A75CD9C00C26F84 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D05ECDFB1AADE69900E1EB23 /* Products */;
+					ProjectRef = D05ECDFA1AADE69900E1EB23 /* RSBarcodes.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D031F5A51A75CD9C00C26F84 /* COSBOX_1.0 */,
@@ -369,16 +309,22 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		D05ECDFF1AADE69900E1EB23 /* RSBarcodes.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RSBarcodes.framework;
+			remoteRef = D05ECDFE1AADE69900E1EB23 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		D031F5A41A75CD9C00C26F84 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D031F5B41A75CD9C00C26F84 /* Main.storyboard in Resources */,
-				D09777A01A9A95B00030C29C /* zbar-help.html in Resources */,
-				D09777A21A9A95B00030C29C /* zbar-samples.png in Resources */,
-				D09777A11A9A95B00030C29C /* zbar-helpicons.png in Resources */,
-				D097779F1A9A95B00030C29C /* zbar-back.png in Resources */,
 				D031F5B91A75CD9C00C26F84 /* LaunchScreen.xib in Resources */,
 				D031F5B61A75CD9C00C26F84 /* Images.xcassets in Resources */,
 			);
@@ -407,6 +353,7 @@
 				D031F5B11A75CD9C00C26F84 /* ViewController.swift in Sources */,
 				D0FEA51B1A79BF7C001F20EE /* Extensions.swift in Sources */,
 				D0C3313F1A7EB20D0019A5FC /* coreData Helpers.swift in Sources */,
+				D081480A1AAB5DE3007CA55A /* UPCViewController.swift in Sources */,
 				D0DA28021A7B3D2100A485F2 /* EyesEntity.swift in Sources */,
 				D0926B371A894D7000E46E8B /* globals.swift in Sources */,
 				D0DA28041A7B3D2100A485F2 /* LipsEntity.swift in Sources */,
@@ -433,6 +380,11 @@
 			isa = PBXTargetDependency;
 			target = D031F5A51A75CD9C00C26F84 /* COSBOX_1.0 */;
 			targetProxy = D031F5BF1A75CD9C00C26F84 /* PBXContainerItemProxy */;
+		};
+		D05ECE011AADE6E700E1EB23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSBarcodes;
+			targetProxy = D05ECE001AADE6E700E1EB23 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -539,6 +491,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = COSBOX_1.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -559,6 +515,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = COSBOX_1.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
